@@ -1,0 +1,115 @@
+a-agent:
+  a_db:
+    reader:
+      host: db-replica.up.internal
+      port: 5432
+      username: /app/config/app-name/stp/app-name/db-username-ro
+      password: /app/config/app-name/stp/app-name/db-password-ro
+    writer:
+      host: db.up.internal
+      port: 5432
+      username: /app/config/app-name/stp/app-name/db-username
+      password: /app/config/app-name/stp/app-name/db-password
+  b_db:
+    reader:
+      host: intg-db-replica.up.internal
+      port: 5432
+      username: /app/config/app-name/stp/intg/db-username-ro
+      password: /app/config/app-name/stp/intg/db-password-ro
+    writer:
+      host: intg-db.up.internal
+      port: 5432
+      username: /app/config/app-name/stp/intg/db-username
+      password: /app/config/app-name/stp/intg/db-password
+b-agent:
+  a_db:
+    reader:
+      host: db-replica.up.internal
+      port: 5432
+      username: /app/config/app-name/stp/app-name/db-username-ro
+      password: /app/config/app-name/stp/app-name/db-password-ro
+    writer:
+      host: db.up.internal
+      port: 5432
+      username: /app/config/app-name/stp/app-name/db-username
+      password: /app/config/app-name/stp/app-name/db-password
+  b_db:
+    reader:
+      host: intg-db-replica.up.internal
+      port: 5432
+      username: /app/config/app-name/stp/intg/db-username-ro
+      password: /app/config/app-name/stp/intg/db-password-ro
+    writer:
+      host: intg-db.up.internal
+      port: 5432
+      username: /app/config/app-name/stp/intg/db-username
+      password: /app/config/app-name/stp/intg/db-password
+c-agent:
+  a_db:
+    reader:
+      host: db-replica.up.internal
+      port: 5432
+      username: /app/config/app-name/stp/app-name/db-username-ro
+      password: /app/config/app-name/stp/app-name/db-password-ro
+    writer:
+      host: db.up.internal
+      port: 5432
+      username: /app/config/app-name/stp/app-name/db-username
+      password: /app/config/app-name/stp/app-name/db-password
+  b_db:
+    reader:
+      host: intg-db-replica.up.internal
+      port: 5432
+      username: /app/config/app-name/stp/intg/db-username-ro
+      password: /app/config/app-name/stp/intg/db-password-ro
+    writer:
+      host: intg-db.up.internal
+      port: 5432
+      username: /app/config/app-name/stp/intg/db-username
+      password: /app/config/app-name/stp/intg/db-password
+d-agent:
+  a_db:
+    reader:
+      host: db-replica.up.internal
+      port: 5432
+      username: /app/config/app-name/stp/app-name/db-username-ro
+      password: /app/config/app-name/stp/app-name/db-password-ro
+    writer:
+      host: db.up.internal
+      port: 5432
+      username: /app/config/app-name/stp/app-name/db-username
+      password: /app/config/app-name/stp/app-name/db-password
+  b_db:
+    reader:
+      host: intg-db-replica.up.internal
+      port: 5432
+      username: /app/config/app-name/stp/intg/db-username-ro
+      password: /app/config/app-name/stp/intg/db-password-ro
+    writer:
+      host: intg-db.up.internal
+      port: 5432
+      username: /app/config/app-name/stp/intg/db-username
+      password: /app/config/app-name/stp/intg/db-password
+e-agent:
+  a_db:
+    reader:
+      host: db-replica.up.internal
+      port: 5432
+      username: /app/config/app-name/stp/app-name/db-username-ro
+      password: /app/config/app-name/stp/app-name/db-password-ro
+    writer:
+      host: db.up.internal
+      port: 5432
+      username: /app/config/app-name/stp/app-name/db-username
+      password: /app/config/app-name/stp/app-name/db-password
+  b_db:
+    reader:
+      host: intg-db-replica.up.internal
+      port: 5432
+      username: /app/config/app-name/stp/intg/db-username-ro
+      password: /app/config/app-name/stp/intg/db-password-ro
+    writer:
+      host: intg-db.up.internal
+      port: 5432
+      username: /app/config/app-name/stp/intg/db-username
+      password: /app/config/app-name/stp/intg/db-password
