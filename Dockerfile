@@ -1,6 +1,8 @@
 FROM python:3.9.16
 LABEL name="lsjin" purpose="infra-checker"
 
+RUN apt update -y
+RUN apt install awscli
 RUN pip install boto3 psycopg2 pyyaml
 
 RUN mkdir /root/infra-checker
