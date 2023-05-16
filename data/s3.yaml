@@ -1,0 +1,5 @@
+a-agent:
+  a-bucket: # bucket-name
+    path: /
+    accessKeyId: /app/config/app-name/stp/aws/accessKeyId
+    accessKeySecret: /app/config/app-name/stp/aws/accessKeySecret
