@@ -4,7 +4,7 @@ EKS MSA 환경에서 서비스 배포 전 해당 서비스가 접속하는 DB에
 
 # Preparation
 - psycopg2
-  - linux : `pip install psycopg2-binary`
+  - linux : `pip install psycopg2`
   - mac : `pip install psycopg2-binary`
 - yaml
   - `pip install pyyaml`
